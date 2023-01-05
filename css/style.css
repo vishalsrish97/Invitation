@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.section{
+	width:80%;	
+}
+.container{
+	width:80%;
+	background-image: url(../last.jpg);
+	background-repeat:no-repeat;
+	width:70%;
+	margin-left:150px;
+	text-align:center;
+}
+.header{
+	border:5px solid #ffeb3b;
+	margin:20px;
+	padding:20px;
+}
+.cont{
+	padding:30px;
+	position:relative;
+}
+.details h1,h2,h3,p{
+	color:white;
+	font-weight:600;
+	display:flex;
+	justify-content:center;
+	margin-top:10px;
+}
+.details h2{
+	font-family: kalam;
+}
+.details h3{
+	font-family: orbitron;
+	word-spacing:10px;
+}
+.details h1{
+	font-family:yellowtail;
+	font-size:60px;
+}
+.details p{
+	font-family:orbitron;
+	font-size:25px;
+}
+.address{
+	font-family:open sans;
+	font-weight:700;
+	font-size:25px;
+}
+.address p{
+	color:white;
+	font-weight:600;
+	display:flex;
+	justify-content:center;
+}
